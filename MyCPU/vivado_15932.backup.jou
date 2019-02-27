@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 11 19:12:06 2018
+# Process ID: 15932
+# Current directory: D:/Study/CODE/Mywork/MyCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10820 D:\Study\CODE\Mywork\MyCPU\MyCPU.xpr
+# Log file: D:/Study/CODE/Mywork/MyCPU/vivado.log
+# Journal file: D:/Study/CODE/Mywork/MyCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Study/CODE/Mywork/MyCPU/MyCPU.xpr
+update_compile_order -fileset sources_1

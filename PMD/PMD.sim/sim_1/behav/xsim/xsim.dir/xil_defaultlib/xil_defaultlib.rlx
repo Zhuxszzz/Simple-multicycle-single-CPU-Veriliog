@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v,1542715467,verilog,,,,led_sim,,,,,,,,
+D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/clock_div.v,1542715685,verilog,,D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/counter8.v,,clock_div,,,,,,,,
+D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/counter8.v,1542715029,verilog,,D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v,,counter8,,,,,,,,
+D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v,1542715240,verilog,,D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/led_8lights.v,,decoder38,,,,,,,,
+D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/led_8lights.v,1542715477,verilog,,D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v,,led_8lights,,,,,,,,

@@ -1,0 +1,7 @@
+Running: xsim.dir/GO_behav/xsimk.exe -simmode gui -wdb GO_behav.wdb -simrunnum 0 -socket 55630
+Design successfully loaded
+Design Loading Memory Usage: 7868 KB (Peak: 7868 KB)
+Design Loading CPU Usage: 233 ms
+Simulation completed
+Simulation Memory Usage: 8660 KB (Peak: 8660 KB)
+Simulation CPU Usage: 374 ms

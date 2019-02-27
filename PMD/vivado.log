@@ -1,0 +1,365 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov 20 19:53:35 2018
+# Process ID: 25752
+# Current directory: D:/Study/CODE/Mywork/PMD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28928 D:\Study\CODE\Mywork\PMD\PMD.xpr
+# Log file: D:/Study/CODE/Mywork/PMD/vivado.log
+# Journal file: D:/Study/CODE/Mywork/PMD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Study/CODE/Mywork/PMD/PMD.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Study/DFE/Vi/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 684.789 ; gain = 19.398
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/counter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder38
+ERROR: [VRFC 10-91] inputA is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:24]
+ERROR: [VRFC 10-91] inputB is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:25]
+ERROR: [VRFC 10-91] inputC is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:26]
+ERROR: [VRFC 10-91] inputEnable is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:27]
+ERROR: [VRFC 10-91] outputregY0 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:28]
+ERROR: [VRFC 10-91] outputregY1 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:29]
+ERROR: [VRFC 10-91] outputregY2 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:30]
+ERROR: [VRFC 10-91] outputregY3 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:31]
+ERROR: [VRFC 10-91] outputregY4 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:32]
+ERROR: [VRFC 10-91] outputregY5 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:33]
+ERROR: [VRFC 10-91] outputregY6 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:34]
+ERROR: [VRFC 10-91] outputregY7 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:35]
+ERROR: [VRFC 10-91] AorBorCorEnable is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:37]
+ERROR: [VRFC 10-91] Enable is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:38]
+ERROR: [VRFC 10-91] Y7 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:39]
+ERROR: [VRFC 10-91] C is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:41]
+ERROR: [VRFC 10-91] Y7 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:42]
+ERROR: [VRFC 10-91] Y7 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:43]
+ERROR: [VRFC 10-91] Y7 is not declared [D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v:44]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/counter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/led_8lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_8lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_sim
+ERROR: [VRFC 10-1412] syntax error near ; [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:26]
+INFO: [VRFC 10-2458] undeclared symbol clock, assumed default net type wire [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:31]
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:32]
+INFO: [VRFC 10-2458] undeclared symbol Y0, assumed default net type wire [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:33]
+ERROR: [VRFC 10-51] regclock is an unknown type [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:26]
+ERROR: [VRFC 10-51] regreset is an unknown type [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:27]
+ERROR: [VRFC 10-51] wireY0 is an unknown type [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:29]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register clock is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:42]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register clock is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:42]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register clock is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register clock is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register reset is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:45]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register reset is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:45]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register reset is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:46]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register reset is not permitted, left-hand side should be reg/integer/time/genvar [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:46]
+ERROR: [VRFC 10-1040] module led_sim ignored due to previous errors [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:23]
+ERROR: [VRFC 10-1412] syntax error near endmodule [D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v:50]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim1.v w ]
+add_files -fileset sim_1 D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim1.v
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/counter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/led_8lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_8lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Study/DFE/Vi/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 1770b40c48c94892a3c8bc979e38374f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot led_sim_behav xil_defaultlib.led_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter8
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.decoder38
+Compiling module xil_defaultlib.led_8lights
+Compiling module xil_defaultlib.led_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot led_sim_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/xsim.dir/led_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim/xsim.dir/led_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Nov 20 20:04:51 2018. For additional details about this file, please refer to the WebTalk help file at D:/Study/DFE/Vi/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 20 20:04:51 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 774.914 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "led_sim_behav -key {Behavioral:sim_1:Functional:led_sim} -tclbatch {led_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source led_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+counter:x
+counter:0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'led_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 774.914 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 774.914 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/counter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sources_1/new/led_8lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_8lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Study/DFE/Vi/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 1770b40c48c94892a3c8bc979e38374f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot led_sim_behav xil_defaultlib.led_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter8
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.decoder38
+Compiling module xil_defaultlib.led_8lights
+Compiling module xil_defaultlib.led_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot led_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "led_sim_behav -key {Behavioral:sim_1:Functional:led_sim} -tclbatch {led_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source led_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+counter:x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'led_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 774.914 ; gain = 0.000
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 42
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 44
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Study/DFE/Vi/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 1770b40c48c94892a3c8bc979e38374f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot led_sim_behav xil_defaultlib.led_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "led_sim_behav -key {Behavioral:sim_1:Functional:led_sim} -tclbatch {led_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source led_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v" Line 42
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'led_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 42
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 42
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 44
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 45
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 46
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 44
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 42
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 44
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 46
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 45
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Study/DFE/Vi/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 1770b40c48c94892a3c8bc979e38374f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot led_sim_behav xil_defaultlib.led_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Study/CODE/Mywork/PMD/PMD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "led_sim_behav -key {Behavioral:sim_1:Functional:led_sim} -tclbatch {led_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source led_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+counter:x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'led_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 20 22:15:58 2018...

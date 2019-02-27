@@ -1,0 +1,19 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Study/CODE/Mywork/MyCPU/MyCPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sim_1/new/SCPU.v,1543136025,verilog,,,,SCPU,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/ALU.v,1543133265,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/CPUgo.v,,ALU,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/CPUgo.v,1543136038,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/ControlUnit.v,,CPUgo,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/ControlUnit.v,1543158815,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/InstrutionMemory.v,,ControlUnit,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/InstrutionMemory.v,1543136655,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Mux_TwoToOneReg.v,,InstrutionMemory,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Mux_TwoToOneReg.v,1542814734,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Mux_TwoToOne_ForInputA.v,,Mux_TwoToOneReg,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Mux_TwoToOne_ForInputA.v,1543075007,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Mux_TwoToOne_ForInputB.v,,Mux_TwoToOne_ForInputA,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Mux_TwoToOne_ForInputB.v,1542947673,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/PC.v,,Mux_TwoToOne,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/PC.v,1543075624,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/RAM.v,,PC,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/RAM.v,1542885405,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/RegisterFile.v,,RAM,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/RegisterFile.v,1543134251,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Sign_Zero_Extend.v,,RegisterFile,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/Sign_Zero_Extend.v,1543129389,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/WriteSelect.v,,Sign_Zero_Extend,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/WriteSelect.v,1543062556,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/nextPC.v,,WriteSelect,,,,,,,,
+D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sources_1/new/nextPC.v,1543159013,verilog,,D:/Study/CODE/Mywork/MyCPU/MyCPU.srcs/sim_1/new/SCPU.v,,nextPC,,,,,,,,

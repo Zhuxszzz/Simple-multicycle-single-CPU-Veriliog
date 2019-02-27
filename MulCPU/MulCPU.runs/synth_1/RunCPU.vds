@@ -1,0 +1,674 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Dec 20 00:09:17 2018
+# Process ID: 20552
+# Current directory: D:/Study/CODE/Mywork/MulCPU/MulCPU.runs/synth_1
+# Command line: vivado.exe -log RunCPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RunCPU.tcl
+# Log file: D:/Study/CODE/Mywork/MulCPU/MulCPU.runs/synth_1/RunCPU.vds
+# Journal file: D:/Study/CODE/Mywork/MulCPU/MulCPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RunCPU.tcl -notrace
+Command: synth_design -top RunCPU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13652 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 344.758 ; gain = 100.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RunCPU' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALU.v:24]
+INFO: [Synth 8-226] default block is never used [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALU.v:32]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (1#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALU.v:24]
+INFO: [Synth 8-638] synthesizing module 'ADR' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ADR.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ADR' (2#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ADR.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUoutDR' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALUuotDR.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUoutDR' (3#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALUuotDR.v:23]
+INFO: [Synth 8-638] synthesizing module 'BDR' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/BDR.v:23]
+INFO: [Synth 8-256] done synthesizing module 'BDR' (4#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/BDR.v:23]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:23]
+	Parameter SIF bound to: 3'b000 
+	Parameter SID bound to: 3'b001 
+	Parameter SEXE1 bound to: 3'b110 
+	Parameter SEXE2 bound to: 3'b101 
+	Parameter SEXE3 bound to: 3'b010 
+	Parameter SWB1 bound to: 3'b111 
+	Parameter SWB2 bound to: 3'b100 
+	Parameter SMEM bound to: 3'b011 
+	Parameter add bound to: 6'b000000 
+	Parameter sub bound to: 6'b000001 
+	Parameter addiu bound to: 6'b000010 
+	Parameter _and bound to: 6'b010000 
+	Parameter andi bound to: 6'b010001 
+	Parameter ori bound to: 6'b010010 
+	Parameter xori bound to: 6'b010011 
+	Parameter sll bound to: 6'b011000 
+	Parameter slti bound to: 6'b100110 
+	Parameter slt bound to: 6'b100111 
+	Parameter sw bound to: 6'b110000 
+	Parameter lw bound to: 6'b110001 
+	Parameter beq bound to: 6'b110100 
+	Parameter bne bound to: 6'b110101 
+	Parameter bltz bound to: 6'b110110 
+	Parameter j bound to: 6'b111000 
+	Parameter jr bound to: 6'b111001 
+	Parameter jal bound to: 6'b111010 
+	Parameter halt bound to: 6'b111111 
+INFO: [Synth 8-226] default block is never used [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:80]
+WARNING: [Synth 8-151] case item 6'b111111 is unreachable [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:88]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:113]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:160]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (5#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:23]
+WARNING: [Synth 8-689] width (2) of port connection 'ExtSel' does not match port width (1) of module 'ControlUnit' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v:40]
+WARNING: [Synth 8-689] width (3) of port connection 'RegDst' does not match port width (2) of module 'ControlUnit' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v:40]
+WARNING: [Synth 8-350] instance 'ControlUnit' of module 'ControlUnit' requires 21 connections, but only 20 given [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v:40]
+INFO: [Synth 8-638] synthesizing module 'DBDR' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DBDR.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DBDR' (6#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DBDR.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'ram_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "ram_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (7#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-638] synthesizing module 'IR' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/IR.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IR' (8#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/IR.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstrutionMemory' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-3876] $readmem data file 'D:/Study/CODE/Mywork/2.txt' is read successfully [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/InstructionMemory.v:32]
+INFO: [Synth 8-256] done synthesizing module 'InstrutionMemory' (9#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux_Three_To_OneReg' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Threee_To_OneReg.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Threee_To_OneReg.v:30]
+INFO: [Synth 8-256] done synthesizing module 'Mux_Three_To_OneReg' (10#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Threee_To_OneReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux_Two_To_One_A' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_A.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux_Two_To_One_A' (11#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_A.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux_Two_To_One_B' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_B.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux_Two_To_One_B' (12#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_B.v:23]
+INFO: [Synth 8-638] synthesizing module 'NextPC' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/NextPC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'NextPC' (13#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/NextPC.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PC' (14#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (15#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'Sign_Zero_Extend' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Sign_Zero_Extend.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Sign_Zero_Extend' (16#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Sign_Zero_Extend.v:23]
+INFO: [Synth 8-638] synthesizing module 'WriteSelect' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect.v:22]
+INFO: [Synth 8-256] done synthesizing module 'WriteSelect' (17#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect.v:22]
+INFO: [Synth 8-638] synthesizing module 'WriteSelect1' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect1.v:23]
+WARNING: [Synth 8-567] referenced signal 'curPC' should be on the sensitivity list [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect1.v:30]
+INFO: [Synth 8-256] done synthesizing module 'WriteSelect1' (18#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect1.v:23]
+WARNING: [Synth 8-3848] Net mRD in module/entity RunCPU does not have driver. [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v:32]
+INFO: [Synth 8-256] done synthesizing module 'RunCPU' (19#1) [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v:23]
+WARNING: [Synth 8-3917] design RunCPU has port ALUOp[2] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port PCSrc[1] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 400.711 ; gain = 156.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 400.711 ; gain = 156.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 400.711 ; gain = 156.234
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-5545] ROM "zero0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ControlUnit'
+INFO: [Synth 8-5546] ROM "PCWre0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcA0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DBDataSrc0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "WrRegDSrc0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mRD0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mWR0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "PCSrc" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "RegDst" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "next_state" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "next_state" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     SIF |                              000 |                              000
+                     SID |                              001 |                              001
+                   SEXE3 |                              010 |                              010
+                    SMEM |                              011 |                              011
+                    SWB1 |                              100 |                              111
+                   SEXE2 |                              101 |                              101
+                   SEXE1 |                              110 |                              110
+                    SWB2 |                              111 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ControlUnit'
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v:115]
+WARNING: [Synth 8-327] inferring latch for variable 'DataOut_reg' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/InstructionMemory.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'WriteReg_reg' [D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Threee_To_OneReg.v:32]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 496.059 ; gain = 251.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 35    
+	   2 Input      8 Bit        Muxes := 57    
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 3     
+	  17 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 12    
+	   9 Input      2 Bit        Muxes := 2     
+	  11 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 59    
+	  11 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 17    
+	   8 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 3     
+	  17 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 11    
+	   9 Input      2 Bit        Muxes := 2     
+	  11 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 6     
+Module DataMemory 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 35    
+	   2 Input      8 Bit        Muxes := 57    
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 55    
+	   5 Input      1 Bit        Muxes := 46    
+	   4 Input      1 Bit        Muxes := 15    
+Module InstrutionMemory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 3     
+Module Mux_Three_To_OneReg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Mux_Two_To_One_A 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Mux_Two_To_One_B 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module NextPC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Sign_Zero_Extend 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module WriteSelect 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module WriteSelect1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "ALU/zero0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design RunCPU has port ALUOp[2] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[31] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[30] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[29] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[28] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[27] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[26] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[25] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[24] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[23] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[22] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[21] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[20] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[19] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[18] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[17] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[16] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[15] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[14] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[13] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[12] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[11] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[10] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[9] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[8] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[7] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[6] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port sa[5] driven by constant 0
+WARNING: [Synth 8-3917] design RunCPU has port InsMemRW driven by constant 1
+WARNING: [Synth 8-3917] design RunCPU has port PCSrc[1] driven by constant 0
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[31]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[30]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[29]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[28]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[27]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[26]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[25]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[23]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[22]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[21]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[20]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[19]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[18]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[17]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[16]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[11]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[10]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[9]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[8]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[7]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[6]
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[0]' (FDE_1) to 'IR/jumpaddress_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\IR/jumpaddress_reg[1] )
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[2]' (FDE_1) to 'IR/immediate_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[3]' (FDE_1) to 'IR/immediate_reg[1]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[4]' (FDE_1) to 'IR/immediate_reg[2]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[5]' (FDE_1) to 'IR/immediate_reg[3]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[6]' (FDE_1) to 'IR/immediate_reg[4]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[7]' (FDE_1) to 'IR/immediate_reg[5]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[8]' (FDE_1) to 'IR/immediate_reg[6]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[9]' (FDE_1) to 'IR/immediate_reg[7]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[10]' (FDE_1) to 'IR/immediate_reg[8]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[11]' (FDE_1) to 'IR/immediate_reg[9]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[12]' (FDE_1) to 'IR/immediate_reg[10]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[13]' (FDE_1) to 'IR/immediate_reg[11]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[14]' (FDE_1) to 'IR/immediate_reg[12]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[15]' (FDE_1) to 'IR/immediate_reg[13]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[16]' (FDE_1) to 'IR/immediate_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[17]' (FDE_1) to 'IR/immediate_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[18]' (FDE_1) to 'IR/rt_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[19]' (FDE_1) to 'IR/rt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[20]' (FDE_1) to 'IR/rt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[21]' (FDE_1) to 'IR/rt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[22]' (FDE_1) to 'IR/rt_reg[4]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[23]' (FDE_1) to 'IR/rs_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[24]' (FDE_1) to 'IR/rs_reg[1]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[25]' (FDE_1) to 'IR/rs_reg[2]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[26]' (FDE_1) to 'IR/rs_reg[3]'
+INFO: [Synth 8-3886] merging instance 'IR/jumpaddress_reg[27]' (FDE_1) to 'IR/rs_reg[4]'
+INFO: [Synth 8-3886] merging instance 'IR/rd_reg[0]' (FDE_1) to 'IR/immediate_reg[11]'
+INFO: [Synth 8-3886] merging instance 'IR/rd_reg[1]' (FDE_1) to 'IR/immediate_reg[12]'
+INFO: [Synth 8-3886] merging instance 'IR/rd_reg[2]' (FDE_1) to 'IR/immediate_reg[13]'
+INFO: [Synth 8-3886] merging instance 'IR/rd_reg[3]' (FDE_1) to 'IR/immediate_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IR/rd_reg[4]' (FDE_1) to 'IR/immediate_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PC/curPC_reg[0] )
+INFO: [Synth 8-3886] merging instance 'IR/sa_reg[0]' (FDE_1) to 'IR/immediate_reg[6]'
+INFO: [Synth 8-3886] merging instance 'IR/sa_reg[1]' (FDE_1) to 'IR/immediate_reg[7]'
+INFO: [Synth 8-3886] merging instance 'IR/sa_reg[2]' (FDE_1) to 'IR/immediate_reg[8]'
+INFO: [Synth 8-3886] merging instance 'IR/sa_reg[3]' (FDE_1) to 'IR/immediate_reg[9]'
+INFO: [Synth 8-3886] merging instance 'IR/sa_reg[4]' (FDE_1) to 'IR/immediate_reg[10]'
+WARNING: [Synth 8-3332] Sequential element (IR/jumpaddress_reg[1]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[31]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[30]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[29]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[28]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[27]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[26]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[25]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[24]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[23]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[22]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[21]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[20]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[19]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[18]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[17]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[16]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[7]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[6]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[5]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[4]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[3]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[2]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[1]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (InstructionMemory/DataOut_reg[0]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg[0]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[31]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[30]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[29]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[28]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[27]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[26]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[25]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[24]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[23]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[22]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[21]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[20]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[19]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[18]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[17]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[16]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[15]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[14]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[13]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[12]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[11]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[10]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[9]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[8]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[7]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (PC/curPC_reg_rep[0]) is unused and will be removed from module RunCPU.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-----------------+------------+---------------+----------------+
+|Module Name      | RTL Object | Depth x Width | Implemented As | 
++-----------------+------------+---------------+----------------+
+|InstrutionMemory | p_0_out    | 128x8         | LUT            | 
+|InstrutionMemory | p_0_out    | 128x8         | LUT            | 
+|InstrutionMemory | p_0_out    | 128x8         | LUT            | 
+|InstrutionMemory | p_0_out    | 128x8         | LUT            | 
+|RunCPU           | p_0_out    | 128x8         | LUT            | 
+|RunCPU           | p_0_out    | 128x8         | LUT            | 
+|RunCPU           | p_0_out    | 128x8         | LUT            | 
+|RunCPU           | p_0_out    | 128x8         | LUT            | 
++-----------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+--------------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object               | Inference | Size (Depth x Width) | Primitives    | 
++------------+--------------------------+-----------+----------------------+---------------+
+|RunCPU      | RegisterFile/regFile_reg | Implied   | 32 x 32              | RAM32M x 12   | 
++------------+--------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+--------------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object               | Inference | Size (Depth x Width) | Primitives    | 
++------------+--------------------------+-----------+----------------------+---------------+
+|RunCPU      | RegisterFile/regFile_reg | Implied   | 32 x 32              | RAM32M x 12   | 
++------------+--------------------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[8]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[9]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[10]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[11]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[12]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[13]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[14]) is unused and will be removed from module RunCPU.
+WARNING: [Synth 8-3332] Sequential element (IR/immediate_reg[15]) is unused and will be removed from module RunCPU.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    32|
+|3     |LUT1   |     3|
+|4     |LUT2   |   134|
+|5     |LUT3   |   186|
+|6     |LUT4   |   108|
+|7     |LUT5   |   270|
+|8     |LUT6   |  1038|
+|9     |MUXF7  |   232|
+|10    |MUXF8  |    64|
+|11    |RAM32M |    12|
+|12    |FDCE   |    37|
+|13    |FDRE   |   663|
+|14    |LD     |     8|
+|15    |IBUF   |     2|
+|16    |OBUF   |   631|
+|17    |OBUFT  |     9|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+--------------------+------+
+|      |Instance              |Module              |Cells |
++------+----------------------+--------------------+------+
+|1     |top                   |                    |  3430|
+|2     |  ADR                 |ADR                 |   139|
+|3     |  ALU                 |ALU                 |    16|
+|4     |  ALUoutDR            |ALUoutDR            |   359|
+|5     |  BDR                 |BDR                 |   187|
+|6     |  ControlUnit         |ControlUnit         |    23|
+|7     |  DBDR                |DBDR                |    33|
+|8     |  DataMemory          |DataMemory          |  1320|
+|9     |  IR                  |IR                  |   457|
+|10    |  Mux_Three_To_OneReg |Mux_Three_To_OneReg |     6|
+|11    |  NextPC              |NextPC              |    24|
+|12    |  PC                  |PC                  |   177|
+|13    |  RegisterFile        |RegisterFile        |    45|
++------+----------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 128 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 633.367 ; gain = 388.891
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 350 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 12 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  LD => LDCE: 8 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+111 Infos, 128 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 693.328 ; gain = 461.539
+INFO: [Common 17-1381] The checkpoint 'D:/Study/CODE/Mywork/MulCPU/MulCPU.runs/synth_1/RunCPU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RunCPU_utilization_synth.rpt -pb RunCPU_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 693.328 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 20 00:09:58 2018...

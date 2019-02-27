@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Dec 20 12:12:03 2018
+# Process ID: 50492
+# Current directory: D:/Study/CODE/Mywork/MyCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34412 D:\Study\CODE\Mywork\MyCPU\MyCPU.xpr
+# Log file: D:/Study/CODE/Mywork/MyCPU/vivado.log
+# Journal file: D:/Study/CODE/Mywork/MyCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Study/CODE/Mywork/MyCPU/MyCPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Study/DFE/Vi/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 673.961 ; gain = 6.289
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 20 12:25:49 2018...

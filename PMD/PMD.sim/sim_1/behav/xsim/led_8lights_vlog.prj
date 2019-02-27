@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PMD.srcs/sources_1/new/clock_div.v" \
+"../../../../PMD.srcs/sources_1/new/counter8.v" \
+"../../../../PMD.srcs/sources_1/new/decoder38.v" \
+"../../../../PMD.srcs/sources_1/new/led_8lights.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,25 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Study/CODE/Mywork/MulCPU/MulCPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sim_1/new/GO.v,1545289664,verilog,,,,GO,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ADR.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALU.v,,ADR,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALU.v,1545549757,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALUuotDR.v,,ALU,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ALUuotDR.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/BDR.v,,ALUoutDR,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/BDR.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v,,BDR,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/ControlUnit.v,1545618384,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DBDR.v,,ControlUnit,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DBDR.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DataMemory.v,,DBDR,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/DataMemory.v,1545550403,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/IR.v,,DataMemory,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/IR.v,1545544334,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/InstructionMemory.v,,IR,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/InstructionMemory.v,1545549865,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Threee_To_OneReg.v,,InstrutionMemory,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Threee_To_OneReg.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_A.v,,Mux_Three_To_OneReg,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_A.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_B.v,,Mux_Two_To_One_A,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Mux_Two_To_One_B.v,1545544767,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/NextPC.v,,Mux_Two_To_One_B,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/NextPC.v,1545544559,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/PC.v,,NextPC,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/PC.v,1545544539,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RegisterFile.v,,PC,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RegisterFile.v,1545550218,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v,,RegisterFile,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/RunCPU.v,1545549244,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Sign_Zero_Extend.v,,RunCPU,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/Sign_Zero_Extend.v,1545550292,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect.v,,Sign_Zero_Extend,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect.v,1545368309,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect1.v,,WriteSelect,,,,,,,,
+D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sources_1/new/WriteSelect1.v,1545453037,verilog,,D:/Study/CODE/Mywork/MulCPU/MulCPU.srcs/sim_1/new/GO.v,,WriteSelect1,,,,,,,,

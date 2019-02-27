@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov 20 19:53:35 2018
+# Process ID: 25752
+# Current directory: D:/Study/CODE/Mywork/PMD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28928 D:\Study\CODE\Mywork\PMD\PMD.xpr
+# Log file: D:/Study/CODE/Mywork/PMD/vivado.log
+# Journal file: D:/Study/CODE/Mywork/PMD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Study/CODE/Mywork/PMD/PMD.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim1.v w ]
+add_files -fileset sim_1 D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim1.v
+update_compile_order -fileset sim_1
+launch_simulation
+source led_sim.tcl
+close_sim
+launch_simulation
+source led_sim.tcl
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 42
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 44
+close_sim
+launch_simulation
+source led_sim.tcl
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 42
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 42
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 44
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 45
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 46
+add_bp {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} 44
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 42
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 44
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 46
+remove_bps -file {D:/Study/CODE/Mywork/PMD/PMD.srcs/sim_1/new/led_sim.v} -line 45
+close_sim
+launch_simulation
+source led_sim.tcl
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+run 16 us
+close_sim
